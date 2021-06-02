@@ -58,6 +58,11 @@ main{
     padding: 2rem 0;
 }
 
+main .col-md-4 {
+    margin: 1rem 0;
+}
+
+
 
 #parallax-bg{
     width: 100%;
@@ -109,7 +114,14 @@ main{
 
 #creators svg:hover{
     transition: all ease-in 0.3s;
-    color:rgb(143, 143, 143);
+}
+
+#creators .col-md-6:first-child svg:hover{
+    color:#0088cc;
+}
+
+#creators .col-md-6:last-child svg:hover{
+    color:#c13584;
 }
 
 
